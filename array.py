@@ -58,7 +58,8 @@ print(solution(row,col,queries))
 
 """
 처음 테스트하는건 맞는데 검사하면 통과가 안되네
-temp1,2,3,4,주는 방식이 잘못된듯함 3번째에서 뭔가 잘못된듯함 temp3가 out of range
+temp1,2,3,4,주는 방식이 잘못된듯함 3번째에서 뭔가 잘못된듯함 temp3가 out of range // 어쩐지 row col값을 잘못줘서 그런거였네
+아직 그래도 원인불명
 
 """
 
