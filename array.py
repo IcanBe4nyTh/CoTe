@@ -8,8 +8,8 @@ queries =[[1,1,100,97]]
 
 def solution(rows, columns, queries):
     answer = []
-    table = []
-    array = [[0 for col in range(columns)] for row in range(rows)]
+    
+    table = [[0 for col in range(columns)] for row in range(rows)]
     item = 1
     for i in range(rows):
         for j in range(columns):
